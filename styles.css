@@ -1,0 +1,23 @@
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 90px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 44px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+.centered {
+  text-align: center;
+}
