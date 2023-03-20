@@ -1,6 +1,12 @@
+:root {
+  --primary-color: #ffb86b;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 h1 {
@@ -20,4 +26,11 @@ h3 {
 
 .centered {
   text-align: center;
+}
+
+.navigation-bar {
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  top: 0;
 }
