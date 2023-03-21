@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #ffb86b;
+  --primary-color: #f7a752;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -7,6 +7,7 @@
 body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
   margin-top: 70px;
+  margin-bottom: 50px;
 }
 
 h1 {
@@ -28,9 +29,28 @@ h3 {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .navigation-bar {
   position: fixed;
   width: 100%;
   margin: 0;
   top: 0;
+}
+
+.primary-link {
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+  padding: 20px 15px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
 }
