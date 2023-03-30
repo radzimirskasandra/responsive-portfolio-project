@@ -1,12 +1,12 @@
 :root {
   --primary-color: #f7a752;
-  --secondary-color: #f5f2fe;
+  --secondary-color: #f8f9fa;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
-  margin-top: 70px;
+  margin-top: 80px;
   margin-bottom: 30px;
 }
 
@@ -49,19 +49,57 @@ h3 {
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: var(--secondary-color);
+  color: white;
   padding: 20px 15px;
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
   border-radius: 4px;
+  transition: all 100ms ease-in-out;
 }
 
-i {
+.primary-link:hover {
+  background: white;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.container-fluid a i {
   font-size: 30px;
+  color: black;
+  border: 3px solid var(--primary-color);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+footer i:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 30px;
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.social-media-links a {
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+.photo-me {
+  border-radius: 50% 50%;
 }
 
 @media (max-width: 576px) {
   .homepage-photo {
     display: none;
+  }
+
+  .photo-me {
+    margin-bottom: 50px;
   }
 
   h1 {
