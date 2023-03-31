@@ -37,6 +37,10 @@ h3 {
   text-align: right;
 }
 
+.decoration-none {
+  text-decoration: none;
+}
+
 .navigation-bar {
   position: fixed;
   width: 100%;
@@ -91,6 +95,15 @@ footer i:hover {
 }
 .photo-me {
   border-radius: 50% 50%;
+}
+
+.contact-me-links:hover {
+  color: var(--primary-color);
+}
+
+.btn-primary {
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 576px) {
